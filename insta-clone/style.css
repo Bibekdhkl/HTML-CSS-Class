@@ -1,64 +1,130 @@
-h1 {
-    text-align:center;
+*{
+      padding: 0;
+      margin: 0;
 }
 
-.main{
-    background-color: red;
-    height: 100vh;
-    padding: 4em;
+a{
+      text-decoration: none;
 }
 
-.top{
-    background-color: green;
-    display: flex;
-    justify-content: center;
+.main-container{
+      display: flex;
+      justify-content: center;
 }
 
-.left-container{
-    background-color: aqua;
-    width: 50%;
-    height: 80vh;
-    /* margin-right: 200px; */
+.image-container img{
+      height: 600.15px;
 }
 
-.image img{
-    height: auto;
-    width: 100%;
-}
+/* right container */
+
 .right-container{
-    background-color: yellow;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center; */
+      padding: 20px 0 0 0;
 }
 
-.form-container{
-    background-color: pink;
-    height: 70%;
-    width: 50%;
-    padding: 5em;
+/* first one start */
+.first-one{
+      border: 2px solid #EDEDED;
+      height: 350px;
+      width: 407;
+      padding: 50px 30px 10px 30px;
 }
 
-.accountdiv{
-    background-color: goldenrod;
-    height: 20%;
+/* .first-one h1{
+      text-align: center;
+      color: #262626;
+      margin: 0 0 20px 0;
+} */
+
+.first-one img{
+      height: 50px;
+      width: 175px;
+      margin: 0 auto 30px 40px;
+
 }
+
+/* Form Section */
+.input-field{
+      /* text-align: center; */
+      padding: 0 9px ;
+      /* width: 80%; */
+      width: 258px;
+      height: 36px;
+      color:#7B7B7B;
+      background-color: #FAFAFA;
+      margin: 4px 10px;
+      border: 2px solid grey;
+      
+}
+
+.login-button{
+      color: white;
+      background-color: #4CB5F9;
+      padding: 10px 0;
+      height: 32px;
+      width: 278.4px;
+      /* width: 100%; */
+      border: none;
+      border-radius: 8px;
+      align-items: center;
+      margin: 10px 0 10px 10px;
+}
+
+/* or text */
+.or-text{
+      text-align: center;
+      color: grey;
+}
+
+/* login forget pw section */
+
+.login-forgot-div{
+      text-align: center;
+}
+
+.fb-login{
+      display: block;
+      text-decoration: none;
+      font-weight: 800;
+      color: #385185;
+}
+
+.fb-login img{
+      height: 20px;
+      width: auto;
+      margin:20px 0 0 0 ;
+}
+
+.forgot-pw{
+      display: block;
+      text-decoration: none;
+      color: #00376B;
+      margin: 10px 0 0 0;
+}
+
+
+/* don't have account */
+.sign-up{
+      text-align: center;
+      border: 2px solid #EDEDED;
+      padding: 20px 10px;
+      margin:10px 0 0 0;
+}
+/* get app bhitra ko image */
 
 .get-app{
-    height: auto;
-    background-color: chartreuse;
+      text-align: center;
+      padding: 10px;
 }
 
-.get-app > img{
-    height: 2em;
+.get-app img{
+      height: 2.5em;
 }
 
-.footer{
-    background-color: blue;
+.get-app-img{
+      margin:20px 0;
 }
 
-.footer{
-    text-align: center;
-}
